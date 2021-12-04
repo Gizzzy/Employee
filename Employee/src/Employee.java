@@ -27,8 +27,8 @@ public class Employee {
     return EmployeeFirstName;
   }  
   // Setter
-  public void setEmployeeFirstName(String c) {
-    this.EmployeeFirstName = c;
+  public void setEmployeeFirstName(String firstName) {  
+    this.EmployeeFirstName = firstName;
   }
   
    // Getter
@@ -36,8 +36,8 @@ public class Employee {
     return EmployeeLastName;
   }  
   // Setter
-  public void setEmployeeLastName(String c) {
-    this.EmployeeLastName = c;
+  public void setEmployeeLastName(String lastName) {
+    this.EmployeeLastName = lastName;
   }
   
    // Getter
@@ -45,8 +45,8 @@ public class Employee {
     return EmployeeID;
   }  
   // Setter
-  public void setEmployeeID(String c) {
-    this.EmployeeID = c;
+  public void setEmployeeID(String id) {
+    this.EmployeeID = id;
   }
   
    // Getter
@@ -54,8 +54,8 @@ public class Employee {
     return EmployeeMonthlySalary;
   }
   // Setter
-  public void setEmployeeMonthlySalary(Float c) {
-    this.EmployeeMonthlySalary = c;
+  public void setEmployeeMonthlySalary(Float salary) {
+    this.EmployeeMonthlySalary = salary;
   }
   
   public void printEmployeeInfo(){
